@@ -75,8 +75,10 @@ body {
 .searchButtons button {
     border-radius: 2px;
     border: none;
-    height: 30px;
+    height: 35px;
     width: 120px;
+    background-color: #f8f9fa;
+    font-size: 13px;
 }
 .bottomWebsite {
     display: flex;
