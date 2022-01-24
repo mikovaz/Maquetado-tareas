@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 02: Tablas</title>
+    <style>
+        td {
+            border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="5">full header</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">aside left</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td>cell</td>
+                <td rowspan="3">aside right</td>
+            </tr>
+            <tr>
+                <td>cell</td>
+                <td rowspan="2" colspan="2">inner area</td>
+            </tr>
+            <tr>
+                <td>cell</td>
+            </tr>
+            <tr>
+                <td colspan="5">full footer</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer">
+        <a href="../index.html">Back to Index</a>
+        <h6>Made by Oscar Corona. January, 2021</h6>
+    </div>
+</body>
+</html>

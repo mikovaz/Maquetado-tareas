@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.googleHomepage {
+    display: flex;
+    flex-direction: column;
+    height: 960px;
+    flex: 1;
+}
+.topNavBar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.topNavBar a, .bottomWebsite a {
+    text-decoration: none;
+    color: #000000;
+}
+.topNavBar a:hover, .bottomWebsite a:hover {
+    text-decoration: underline;
+}
+.topLeftNavBar a {
+    margin-right: 10px;
+}
+.topRightNavBar a {
+    margin-left: 10px;
+}
+#signInButton {
+    background-color: #1a73e8;
+    color: white;
+    margin-left: 10px;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+.middleWebsite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 0px;
+    height: 750px;
+}
+.googleLogo {
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+.blueLetter {
+    color: rgb(13, 107, 238);
+}
+.redLetter {
+    color: rgb(251, 39, 37);
+}
+#yellowLetter {
+    color: rgb(254, 176, 11);
+}
+#greenLetter {
+    color: rgb(20, 157, 59);
+}
+#googleSearchBar {
+    width: 450px;
+    border-radius: 15px;
+}
+.searchButtons {
+    display: flex;
+    gap: 20px;
+}
+.searchButtons button {
+    border-radius: 2px;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+.bottomWebsite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    height: 35px;
+    background-color: #f2f2f2;
+}
+.leftBottomNavBar a, .rightBottomNavBar a {
+    margin-right: 10px;
+    margin-left: 10px;
+}

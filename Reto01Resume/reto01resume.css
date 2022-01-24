@@ -1,0 +1,77 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: rgb(196,196,196);
+    background: linear-gradient(0deg, rgba(196,196,196,0.43155452436194897) 0%, rgba(250,250,250,1) 100%);
+}
+article {
+    border: 2px solid black;
+}
+td {
+    border: 1.5px dotted black;
+}
+thead {
+    font-weight: bold;
+}
+h2 {
+    text-align: right;
+}
+#subTitle {
+    text-align: right;
+    color: gray;
+    font-size: 0.75em;
+}
+.centerTables {
+    margin-left: auto;
+    margin-right: auto;
+}
+h4 {
+    text-shadow: 1px 1px grey;
+    padding-left: 5px;
+}
+small {
+    padding: 10px;
+}
+h5 {
+    padding-left: 5px;
+}
+p {
+    font-size: small;
+    margin-bottom: 2px;
+}
+.centerTitles {
+    text-align: center;
+}
+footer {
+    text-align: right;
+    font-size: small;
+}
+h4, small, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li {
+    font-size: small;
+}
+#smallNotes {
+    font-size: 6px;
+}
+#centerTitleTable {
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer h6 {
+    text-align: right;
+}
+a {
+    text-decoration: none;
+    color: #708090;
+}
+a:hover {
+    text-decoration: underline;
+}

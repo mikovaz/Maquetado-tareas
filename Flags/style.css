@@ -1,0 +1,134 @@
+body {
+    background-color: #DCDCDC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #708090;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header h2 {
+    text-align: center;
+}
+.flags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flagSkeleton {  
+    height: 266.67px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.france {
+    display: flex;
+}
+.blueFrance {
+    height: 266.67px;
+    width: 33.3%;
+    background-color: #0055A4;
+}
+.whiteFrance {
+    height: 266.67px;
+    width: 33.3%;
+    background-color: #FFFFFF;
+}
+.redFrance {
+    height: 266.67px;
+    width: 33.4%;
+    background-color: #EF4135;
+}
+.germany {
+    display: flex;
+    flex-direction: column;
+}
+.blackGermany {
+    height: 33.3%;
+    width: 400px;
+    background-color: #000000;
+}
+.redGermany {
+    height: 33.3%;
+    width: 400px;
+    background-color: #DA291C;
+}
+.yellowGermany {
+    height: 33.4%;
+    width: 400px;
+    background-color: #FFCD00;
+}
+.england {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.topAndBottomEngland {
+    display: flex;
+    height: 106.8px;
+    width: 100%;
+}
+.whiteEngland {
+    width: 45%;
+    background-color: #FFFFFF;
+
+}
+.redVerticalEngland {
+    background-color: #CF081F;
+    width: 15%;
+}
+.middleEngland {
+    display: flex;
+    height: 53.07px;
+    width: 100%;
+}
+.redHorizontalEngland {
+    background-color: #CF081F;
+    width: 100%;
+}
+.japan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.redCircleJapan {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: #BC002D;
+}
+.mexico {
+    display: flex;
+}
+.greenMexico {
+    height: 100%;
+    width: 33.3%;
+    background-color: #006341;
+}
+.whiteMexico {
+    height: 100%;
+    width: 33.3%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whiteMexico img {
+    height: 40%;
+}
+.redMexico {
+    height: 100%;
+    width: 33.4%;
+    background-color: #C8102E;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer h6 {
+    text-align: right;
+}

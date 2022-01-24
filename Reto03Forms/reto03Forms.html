@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 03: Forms</title>
+    <link rel="stylesheet" href="reto03Forms.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <h2>It's free and anyone can join</h2>
+    <div id="form">
+        <form action="/form" method="GET">
+            <p>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName">
+            </p>
+            <p>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName">
+            </p>
+            <p>
+                <label for="emailAddress">Your Email</label>
+                <input type="email" name="emailAddress">
+            </p>
+            <p>
+                <label for="password">New Password</label>
+                <input type="password" name="password">
+            </p>
+            <p>
+                <label for="gender">I am</label>
+                    <select name="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                        <option value="noSpecified">No Specified/Prefers not to answer</option>
+                    </select>
+             </p>
+             <p>
+                <label for="birthDate">Birthday</label>
+                <input type="date" name="birthDate">
+            </p>
+            <p id="noticeBirthday">Why do I need to provide this?</p>
+            <p>
+                <input type="submit" name="signUp" value="Sign Up" id="signUpButton">
+            </p>
+        </form>
+    </div>
+    <hr />
+    <p id="createPage"><a href="https://www.facebook.com/pages/create/">Create a page</a> for a celebrity, band or business.</p>
+    <div class="footer">
+        <a href="../index.html">Back to Index</a>
+        <h6>Made by Oscar Corona. January, 2021</h6>
+    </div>
+</body>
+</html>
