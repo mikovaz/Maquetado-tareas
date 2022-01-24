@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px 0px;
+    gap: 30px 0px;
     height: 80vh;
 }
 .googleLogo {
@@ -66,6 +66,7 @@ body {
 #googleSearchBar {
     width: 450px;
     border-radius: 15px;
+    height: 3.5vh;
 }
 .searchButtons {
     display: flex;
