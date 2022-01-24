@@ -43,7 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px 0px;
-    height: 550px;
+    height: 80vh;
 }
 .googleLogo {
     display: flex;
