@@ -94,3 +94,12 @@ input:focus {
 .github:hover {
     color: rgb(130, 215, 247);
 }
+.midBannerContainer {
+    background-color: rgb(41, 44, 51);
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.midBanner {
+    background-image: url(./images/reactbglogo.png);
+}
