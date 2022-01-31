@@ -25,7 +25,6 @@
 .logo {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 17%;
 }
 .logo img {
@@ -39,6 +38,10 @@
 .textNavBar {
     display: flex;
     width: 40%;
+}
+.linksNavBar {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .linksNavBar a {
     text-decoration: none;
@@ -67,6 +70,7 @@ input:focus {
 .rightTextNavBar {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     color: #FFF;
     font-size: 14px;
     width: 23%;
