@@ -45,3 +45,15 @@
 .linksNavBar:hover a {
     color:rgb(130, 215, 247)
 }
+.searchInput input {
+    background-color: rgb(33, 35, 41);
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    border: 0;
+    font-weight: 300;
+    width: 100%;
+}
+input:focus {
+    background-color: rgb(55, 57, 63);
+    border: 0;
+}
