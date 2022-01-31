@@ -105,6 +105,7 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .midBanner::before {
     content: "";
@@ -135,4 +136,11 @@ input:focus {
     font-size: 30px;
     color: #FFF;
     font-weight: 200;
+}
+.buttons {
+    display: flex;
+}
+.getStarted {
+    padding: 20px;
+    background-color: rgb(130, 215, 247);
 }
