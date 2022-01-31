@@ -33,3 +33,15 @@
     color: rgb(130, 215, 247);
     font-size: 20px;
 }
+.textNavBar {
+    display: flex;
+}
+.linksNavBar a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFF;
+}
+.linksNavBar:hover a {
+    color:rgb(130, 215, 247)
+}
