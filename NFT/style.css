@@ -4,9 +4,13 @@ body {
 }
 .mainNFT {
     display: flex;
-    min-height: 100vh;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .cardNFT {
     background-color: hsl(216, 50%, 16%);
@@ -97,10 +101,18 @@ body {
 #creatorName {
     font-weight: 700;
 }
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
 }
 .footer h6 {
     text-align: right;
