@@ -4,6 +4,8 @@
     font-family: Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 .navBarContainer {
+    display: flex;
+    justify-content: center;
     height: 60px;
     width: 100%;
     background-color: rgb(33, 35, 41);
@@ -16,14 +18,15 @@
 .navBar {
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 1280px;
+    justify-content: space-between;
+    width: 1220px;
     height: 60px;
 }
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 17%;
 }
 .logo img {
     height: 20px;
@@ -35,6 +38,7 @@
 }
 .textNavBar {
     display: flex;
+    width: 40%;
 }
 .linksNavBar a {
     text-decoration: none;
@@ -44,6 +48,9 @@
 }
 .linksNavBar:hover a {
     color:rgb(130, 215, 247)
+}
+.searchInput {
+    width: 20%;
 }
 .searchInput input {
     background-color: rgb(33, 35, 41);
@@ -56,4 +63,30 @@
 input:focus {
     background-color: rgb(55, 57, 63);
     border: 0;
+}
+.rightTextNavBar {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
+    width: 23%;
+}
+.languages {
+    display: flex;
+    align-items: center;
+}
+.languages svg {
+    fill: #FFF;
+}
+.version:hover {
+    color: rgb(130, 215, 247);
+}
+.languages:hover {
+    color: rgb(130, 215, 247);
+}
+.languages:hover svg {
+    fill: rgb(130, 215, 247);
+}
+.github:hover {
+    color: rgb(130, 215, 247);
 }
